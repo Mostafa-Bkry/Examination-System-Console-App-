@@ -2,7 +2,7 @@
 
 namespace ExamComponents
 {
-    public class QuestionsList : List<Question>
+    public class QuestionsList
     {
         static int newObject;
         string path;

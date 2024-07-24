@@ -29,7 +29,29 @@ namespace ExamSys
             //questionsList.Add = c4;
 
             //foreach (var q in questionsList[t1])
-            //    Console.WriteLine(q); 
+            //    Console.WriteLine(q);
+            #endregion
+
+            #region Checking Answers Logic
+            //TrueOrFalse t1 = new TrueOrFalse("TrueOrFalse 1", 1);
+            //TrueOrFalse t2 = new TrueOrFalse("TrueOrFalse 2", 1);
+
+            //ChooseOne c1 = new ChooseOne("ChooseOne 1", 1);
+            //ChooseOne c2 = new ChooseOne("ChooseOne 2", 1);
+            
+            //MultiChoices m1 = new MultiChoices("ChooseOne 1", 1);
+            //MultiChoices m2 = new MultiChoices("ChooseOne 2", 1);
+
+            //TorFAnswer torF1 = new TorFAnswer(true);
+            //TorFAnswer torF2 = new TorFAnswer(false);
+
+            //ChooseOneAnswer ch1 = new ChooseOneAnswer("afa", "fafa", "hafa", "yafa", ChoicesAnsEnum.A);
+            //ChooseOneAnswer ch2 = new ChooseOneAnswer("afa", "fafa", "hafa", "yafa", ChoicesAnsEnum.b);
+
+            //MultiChoicesAnswers multi1 = new MultiChoicesAnswers("afa", "fafa", "hafa", "yafa"
+            //    , ChoicesAnsEnum.A ^ ChoicesAnsEnum.B);
+            //MultiChoicesAnswers multi2 = new MultiChoicesAnswers("afa", "fafa", "hafa", "yafa"
+            //    , ChoicesAnsEnum.b ^ ChoicesAnsEnum.c);
             #endregion
 
 
