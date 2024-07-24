@@ -1,0 +1,11 @@
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\ExamComponents.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\ExamComponents.AssemblyInfoInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\ExamComponents.AssemblyInfo.cs
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\ExamComponents.csproj.CoreCompileInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\bin\Debug\net8.0\ExamComponents.deps.json
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\bin\Debug\net8.0\ExamComponents.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\bin\Debug\net8.0\ExamComponents.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\ExamComponents.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\refint\ExamComponents.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\ExamComponents.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamComponents\obj\Debug\net8.0\ref\ExamComponents.dll
