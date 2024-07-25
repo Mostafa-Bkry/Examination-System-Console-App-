@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\exam\\practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|solutionrelative:exam\\practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D33B8D21-4712-4F72-A686-BA0FECA31DFD}|ExamSys\\ExamSys.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\examsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D33B8D21-4712-4F72-A686-BA0FECA31DFD}|ExamSys\\ExamSys.csproj|solutionrelative:examsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\exam\\practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|solutionrelative:exam\\practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\exam\\finalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PracticeExam.cs",
               "DocumentMoniker": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\PracticeExam.cs",
               "RelativeDocumentMoniker": "Exam\\PracticeExam.cs",
               "ToolTip": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\PracticeExam.cs",
               "RelativeToolTip": "Exam\\PracticeExam.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAQwDIAAAA4AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T15:09:20.135Z",
               "EditorCaption": ""
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\ExamSys\\Program.cs",
               "RelativeDocumentMoniker": "ExamSys\\Program.cs",
