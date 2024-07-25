@@ -17,11 +17,15 @@ namespace ExamSys
             }
             while (string.IsNullOrEmpty(input) || !uint.TryParse(input, out numOfQ) || numOfQ == 0);
 
-            FinalExam final = new FinalExam(numOfQ);
-            final.CreateExam();
+            //FinalExam final = new FinalExam(numOfQ);
+            //final.CreateExam();
+            //Console.Clear();
+            //final.ShowExam();
 
-            //PracticeExam practice = new PracticeExam(numOfQ);
-            //practice.CreateExam();
+            PracticeExam practice = new PracticeExam(numOfQ);
+            practice.CreateExam();
+            Console.Clear();
+            practice.ShowExam();
         }
     }
 }

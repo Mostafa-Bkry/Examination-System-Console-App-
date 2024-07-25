@@ -7,7 +7,7 @@ namespace Exam
     {
         public FinalExam(uint numOfQ) : base(numOfQ)
         { }
-        public FinalExam(Subject sub, TimeSpan time, uint numOfQ) 
+        internal FinalExam(Subject sub, TimeSpan time, uint numOfQ) 
             : base(sub, time, numOfQ)
         {
         }
@@ -16,6 +16,13 @@ namespace Exam
         {
             Console.WriteLine(Subject);
             Console.WriteLine("========================================================");
+            for(int i = 0; i < NumberOfQ; i++)
+            {
+                Console.WriteLine($"({i + 1}) {Questions.List[i]}");
+                Console.WriteLine(Answers.List[i]);
+                Console.WriteLine();
+                Console.WriteLine();
+            }
         }
     }
 }

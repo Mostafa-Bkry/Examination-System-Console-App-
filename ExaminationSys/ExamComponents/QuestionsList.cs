@@ -1,5 +1,4 @@
 ﻿using System;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace ExamComponents
 {
@@ -12,6 +11,7 @@ namespace ExamComponents
         public QuestionsList()
         {
             newObject++;
+            //Relative Path
             path = @$".\Questions{newObject}.txt";
             list = new List<Question>();
         }
@@ -20,6 +20,8 @@ namespace ExamComponents
         public string Path { get => path; }
 
         public static int NewObject { get => newObject; }
+
+        public List<Question> List { get => list; }
 
         //Add Any type of questions To the list
         public Question Add
@@ -38,15 +40,14 @@ namespace ExamComponents
 
         #region Indexers
         //return List of same question type
-        public List<Question> this[Question question]
+        public List<Question> this[Question questionType]
         {
             get
             {
                 List<Question> result = new List<Question>();
-
                 for (int i = 0; i < list.Count; i++)
                 {
-                    if (list[i].GetType() == question.GetType())
+                    if (list[i].GetType() == questionType.GetType())
                         result.Add(list[i]);
                 }
 

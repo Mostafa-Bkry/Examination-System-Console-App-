@@ -18,7 +18,7 @@
 
         public override string ToString()
         {
-            return $"Q: {header}\t({mark})\n--> {body}";
+            return $"{header}\t({mark})\n  Q: {body}";
         }
     }
 }

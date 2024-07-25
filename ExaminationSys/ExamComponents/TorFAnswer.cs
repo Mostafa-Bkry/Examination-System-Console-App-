@@ -15,7 +15,7 @@ namespace ExamComponents
 
         public override string ToString()
         {
-            return $"True / False";
+            return "\tTrue / False";
         }
     }
 }

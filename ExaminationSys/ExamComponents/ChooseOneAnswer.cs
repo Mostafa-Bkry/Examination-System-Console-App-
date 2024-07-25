@@ -26,7 +26,7 @@ namespace ExamComponents
 
         public override string ToString()
         {
-            return $"A) {choices[0]}  B) {choices[1]}  C) {choices[2]}  D) {choices[3]}";
+            return $"\tA) {choices[0]}  B) {choices[1]}  C) {choices[2]}  D) {choices[3]}";
         }
     }
 }

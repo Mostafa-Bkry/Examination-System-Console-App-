@@ -12,6 +12,8 @@ namespace ExamComponents
         }
 
         #region Props
+        public List<Answer> List { get => list; }
+
         public Answer Add
         {
             set
