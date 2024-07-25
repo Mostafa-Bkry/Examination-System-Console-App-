@@ -1,5 +1,10 @@
 ﻿namespace ExamComponents
 {
+    public enum QuestionType : byte
+    {
+        TrueOrFalse = 1, ChooseOne, MultiChoices
+    }
+
     [Flags]
     public enum ChoicesAnsEnum : byte
     {

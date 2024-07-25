@@ -1,4 +1,5 @@
-﻿using ExamComponents;
+﻿using Exam;
+using ExamComponents;
 
 namespace ExamSys
 {
@@ -38,7 +39,7 @@ namespace ExamSys
 
             //ChooseOne c1 = new ChooseOne("ChooseOne 1", 1);
             //ChooseOne c2 = new ChooseOne("ChooseOne 2", 1);
-            
+
             //MultiChoices m1 = new MultiChoices("ChooseOne 1", 1);
             //MultiChoices m2 = new MultiChoices("ChooseOne 2", 1);
 
@@ -52,9 +53,39 @@ namespace ExamSys
             //    , ChoicesAnsEnum.A ^ ChoicesAnsEnum.B);
             //MultiChoicesAnswers multi2 = new MultiChoicesAnswers("afa", "fafa", "hafa", "yafa"
             //    , ChoicesAnsEnum.b ^ ChoicesAnsEnum.c);
+
+            //QuestionsList questionsList = new QuestionsList();
+
+            //questionsList.Add = t1;
+            //questionsList.Add = t2;
+            //questionsList.Add = c1;
+            //questionsList.Add = c2;
+            //questionsList.Add = m1;
+            //questionsList.Add = m2;
+
+            //AnswersList answersList = new AnswersList();
+
+            //answersList[t1] = torF1;
+            //answersList[t2] = torF2;
+            //answersList[c1] = ch1;
+            //answersList[c2] = ch2;
+            //answersList[m1] = multi1;
+            //answersList[m2] = multi2;
+
+            ////foreach (var q in answersList[ch1])
+            ////    Console.WriteLine(q);
+
+            //foreach (var item in answersList.AnswerDictionary)
+            //{
+            //    Console.WriteLine(item.Key);
+
+            //    Console.WriteLine(item.Value);
+            //}
             #endregion
 
-
+            Console.WriteLine("Enter Num of q");
+            FinalExam final = new FinalExam(4);
+            final.CreateExam();
         }
     }
 }

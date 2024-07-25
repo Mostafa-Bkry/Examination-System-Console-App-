@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v8.0": {
       "ExamSys/1.0.0": {
         "dependencies": {
+          "Exam": "1.0.0",
           "ExamComponents": "1.0.0"
         },
         "runtime": {
           "ExamSys.dll": {}
+        }
+      },
+      "Exam/1.0.0": {
+        "dependencies": {
+          "ExamComponents": "1.0.0"
+        },
+        "runtime": {
+          "Exam.dll": {}
         }
       },
       "ExamComponents/1.0.0": {
@@ -23,6 +32,11 @@
   },
   "libraries": {
     "ExamSys/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exam/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

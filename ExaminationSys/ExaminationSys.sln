@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamSys", "ExamSys\ExamSys.csproj", "{D33B8D21-4712-4F72-A686-BA0FECA31DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamComponents", "ExamComponents\ExamComponents.csproj", "{9905BBB4-0013-4DB7-B051-3B0B51C01F28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamComponents", "ExamComponents\ExamComponents.csproj", "{9905BBB4-0013-4DB7-B051-3B0B51C01F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam", "Exam\Exam.csproj", "{BD611958-2F14-4167-8D8C-15059563A887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9905BBB4-0013-4DB7-B051-3B0B51C01F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9905BBB4-0013-4DB7-B051-3B0B51C01F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9905BBB4-0013-4DB7-B051-3B0B51C01F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD611958-2F14-4167-8D8C-15059563A887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD611958-2F14-4167-8D8C-15059563A887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD611958-2F14-4167-8D8C-15059563A887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD611958-2F14-4167-8D8C-15059563A887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

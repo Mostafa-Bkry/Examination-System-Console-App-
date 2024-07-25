@@ -3,13 +3,13 @@
     public abstract class Question
     {
         string header, body;
-        int mark;
+        uint mark;
 
         public string Header { get => header; protected set => header = value; }
         public string Body { get => body; protected set => body = value; }
-        public int Mark { get => mark; protected set => mark = value; }
+        public uint Mark { get => mark; protected set => mark = value; }
 
-        public Question(string _header, string _body, int _mark)
+        public Question(string _header, string _body, uint _mark)
         {
             header = _header;
             body = _body;

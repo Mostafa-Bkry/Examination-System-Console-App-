@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{D33B8D21-4712-4F72-A686-BA0FECA31DFD}|ExamSys\\ExamSys.csproj|solutionrelative:examsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9905BBB4-0013-4DB7-B051-3B0B51C01F28}|ExamComponents\\ExamComponents.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\examcomponents\\answerslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9905BBB4-0013-4DB7-B051-3B0B51C01F28}|ExamComponents\\ExamComponents.csproj|solutionrelative:examcomponents\\answerslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9905BBB4-0013-4DB7-B051-3B0B51C01F28}|ExamComponents\\ExamComponents.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\examcomponents\\questionslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9905BBB4-0013-4DB7-B051-3B0B51C01F28}|ExamComponents\\ExamComponents.csproj|solutionrelative:examcomponents\\questionslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\exam\\examcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|solutionrelative:exam\\examcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|d:\\courses\\c# iti 2021\\hany labib\\my learning 2024\\labs assignments\\6\\examinationsys\\exam\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD611958-2F14-4167-8D8C-15059563A887}|Exam\\Exam.csproj|solutionrelative:exam\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,14 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnswersList.cs",
-              "DocumentMoniker": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\ExamComponents\\AnswersList.cs",
-              "RelativeDocumentMoniker": "ExamComponents\\AnswersList.cs",
-              "ToolTip": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\ExamComponents\\AnswersList.cs",
-              "RelativeToolTip": "ExamComponents\\AnswersList.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwC8AAAAJAAAA",
+              "Title": "QuestionsList.cs",
+              "DocumentMoniker": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\ExamComponents\\QuestionsList.cs",
+              "RelativeDocumentMoniker": "ExamComponents\\QuestionsList.cs",
+              "ToolTip": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\ExamComponents\\QuestionsList.cs",
+              "RelativeToolTip": "ExamComponents\\QuestionsList.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAWwA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T23:27:06.935Z",
+              "WhenOpened": "2024-07-25T03:08:51.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExamCreater.cs",
+              "DocumentMoniker": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\ExamCreater.cs",
+              "RelativeDocumentMoniker": "Exam\\ExamCreater.cs",
+              "ToolTip": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\ExamCreater.cs",
+              "RelativeToolTip": "Exam\\ExamCreater.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwIMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:54:09.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\Exam.cs",
+              "RelativeDocumentMoniker": "Exam\\Exam.cs",
+              "ToolTip": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\Exam.cs",
+              "RelativeToolTip": "Exam\\Exam.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAIA5wDMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T00:34:24.885Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +79,7 @@
               "RelativeDocumentMoniker": "ExamSys\\Program.cs",
               "ToolTip": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\ExamSys\\Program.cs",
               "RelativeToolTip": "ExamSys\\Program.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwEcAAAAsAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T13:03:07.51Z",
               "EditorCaption": ""

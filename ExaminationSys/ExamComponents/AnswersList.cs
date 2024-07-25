@@ -5,39 +5,30 @@ namespace ExamComponents
     public class AnswersList
     {
         List<Answer> list;
-        //Dictionary<Question, Answer> answerDict;
 
         public AnswersList()
         {
             list = new List<Answer>();
-            //answerDict = new Dictionary<Question, Answer>();
         }
 
-        //public Dictionary<Question, Answer> AnswerDictionary { get => answerDict; }
+        //#region Props
+        //public Answer Add
+        //{
+        //    set
+        //    {
+        //        list.Add(value);
+        //    }
+        //}
+        //#endregion
 
-        #region Props
-        public Answer Add
+        #region Indexers
+        public Answer this[Question q]
         {
             set
             {
                 list.Add(value);
             }
         }
-        #endregion
-
-        #region Indexers
-        //public Answer this[Question q]
-        //{
-        //    set
-        //    {
-        //        list.Add(value);
-        //        //answerDict[q] = value;
-        //    }
-        //    get
-        //    {
-        //        //return answerDict[q];
-        //    }
-        //}
 
         //return List of same answer type
         public List<Answer> this[Answer answer]
