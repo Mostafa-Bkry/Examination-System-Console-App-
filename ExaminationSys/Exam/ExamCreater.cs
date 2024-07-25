@@ -196,7 +196,7 @@ namespace Exam
                         Console.WriteLine("(A or B or C or D) OR (a or b or c or d)");
                         input = Console.ReadLine();
                     }
-                    while (string.IsNullOrEmpty(input)
+                    while (string.IsNullOrEmpty(input) || input.Length > 1
                     || !Enum.TryParse(input, true, out ansEnum));
 
                     return new ChooseOneAnswer(a, b, c, d, ansEnum);
