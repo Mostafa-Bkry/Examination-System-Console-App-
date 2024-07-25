@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ExamComponents
 {
@@ -11,7 +12,7 @@ namespace ExamComponents
         public QuestionsList()
         {
             newObject++;
-            path = @$"D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\Questions{newObject}.txt";
+            path = @$".\Questions{newObject}.txt";
             list = new List<Question>();
         }
 

@@ -20,8 +20,8 @@ namespace ExamSys
             FinalExam final = new FinalExam(numOfQ);
             final.CreateExam();
 
-            PracticeExam practice = new PracticeExam(numOfQ);
-            practice.CreateExam();
+            //PracticeExam practice = new PracticeExam(numOfQ);
+            //practice.CreateExam();
         }
     }
 }
