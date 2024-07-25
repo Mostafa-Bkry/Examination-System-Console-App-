@@ -1,0 +1,48 @@
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 1
+Q: Ture or False	(0)
+--> 5555
+Q: Ture or False	(0)
+--> 1
+Q: Choose One	(0)
+--> 1
+Q: Choose All Correct Answers	(0)
+--> 5
+Q: Choose All Correct Answers	(0)
+--> 555
+Q: Choose All Correct Answers	(2)
+--> 3
+Q: Choose All Correct Answers	(0)
+--> 3
+Q: Choose All Correct Answers	(2)
+--> 3
+Q: Choose All Correct Answers	(2)
+--> 5
+Q: Choose All Correct Answers	(2)
+--> 3
+Q: Choose All Correct Answers	(2)
+--> 3
+Q: Choose All Correct Answers	(2)
+--> 3
+Q: Choose All Correct Answers	(2)
+--> 3

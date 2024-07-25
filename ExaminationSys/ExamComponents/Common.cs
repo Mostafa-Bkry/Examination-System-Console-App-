@@ -5,6 +5,11 @@
         TrueOrFalse = 1, ChooseOne, MultiChoices
     }
 
+    public enum TorFAnswerEnum : byte
+    {
+        True, False,
+    }
+
     [Flags]
     public enum ChoicesAnsEnum : byte
     {

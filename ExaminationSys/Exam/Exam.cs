@@ -43,11 +43,13 @@ namespace Exam
             Console.WriteLine("========================================================");
 
             uint markForEach = subject.FullMark / numberOfQ;
+            QuestionType qType;
 
             for(int i = 0; i < numberOfQ; i++)
             {
                 Console.WriteLine($"Q({i + 1})");
-                questions.Add = ExamCreater.EnterQuestion(markForEach);
+                questions.Add = ExamCreater.EnterQuestion(markForEach, out qType);
+                answers.Add = ExamCreater.EnterQAnswer(qType);
                 Console.WriteLine("-----------------------------");
             }
         }

@@ -11,24 +11,24 @@ namespace ExamComponents
             list = new List<Answer>();
         }
 
-        //#region Props
-        //public Answer Add
-        //{
-        //    set
-        //    {
-        //        list.Add(value);
-        //    }
-        //}
-        //#endregion
-
-        #region Indexers
-        public Answer this[Question q]
+        #region Props
+        public Answer Add
         {
             set
             {
                 list.Add(value);
             }
         }
+        #endregion
+
+        #region Indexers
+        //public Answer this[Question q]
+        //{
+        //    set
+        //    {
+        //        list.Add(value);
+        //    }
+        //}
 
         //return List of same answer type
         public List<Answer> this[Answer answer]

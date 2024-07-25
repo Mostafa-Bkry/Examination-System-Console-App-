@@ -68,10 +68,10 @@ namespace Exam
         #endregion
 
         #region Question Sections
-        public static Question EnterQuestion(uint markForEach)
+        public static Question EnterQuestion(uint markForEach, out QuestionType qType)
         {
             string? input;
-            QuestionType qType;
+            //QuestionType qType;
 
             #region Question Type Input
             do
@@ -130,7 +130,169 @@ namespace Exam
         #endregion
 
         #region Answer Section
+        public static Answer EnterQAnswer(QuestionType qType)
+        {
+            string? input;
 
+            switch (qType)
+            {
+                #region TrueOrFalse
+                case QuestionType.TrueOrFalse:
+                    byte ans;
+
+                    do
+                    {
+                        Console.WriteLine("Enter The Right Answer of This Q");
+                        Console.WriteLine("1 --> True\t0 --> False");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input) || (input != "0" && input != "1")
+                    || !byte.TryParse(input, out ans));
+
+                    //Console.WriteLine(new TorFAnswer(ans == 0 ? false : true).QAnswer);
+                    return new TorFAnswer(ans == 0 ? false : true);
+                #endregion
+
+                #region ChooseOne
+                case QuestionType.ChooseOne:
+                    string a, b, c, d;
+                    ChoicesAnsEnum ansEnum;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice A");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    a = input;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice B");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    b = input;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice C");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    c = input;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice D");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    d = input;
+
+                    do
+                    {
+                        Console.WriteLine("Enter The Right Answer of This Q");
+                        Console.WriteLine("(A or B or C or D) OR (a or b or c or d)");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input)
+                    || !Enum.TryParse(input, true, out ansEnum));
+
+                    return new ChooseOneAnswer(a, b, c, d, ansEnum);
+                #endregion
+
+                #region MultiChoices
+                case QuestionType.MultiChoices:
+                    string A, B, C, D;
+                    uint numOfRightAns;
+                    ChoicesAnsEnum multiAnsEnum;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice A");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    A = input;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice B");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    B = input;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice C");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    C = input;
+
+                    do
+                    {
+                        Console.WriteLine("Enter Choice D");
+                        input = Console.ReadLine();
+                    }
+                    while (string.IsNullOrEmpty(input));
+                    D = input;
+
+                    return new MultiChoicesAnswers(A, B, C, D
+                        , RighAnswer(out numOfRightAns, out input, out multiAnsEnum));
+                #endregion
+
+                default:
+                    return null;
+            }
+        }
+
+        static ChoicesAnsEnum RighAnswer(out uint numOfRightAns, out string? input, out ChoicesAnsEnum multiAnsEnum)
+        {
+            multiAnsEnum = default;
+
+            do
+            {
+                Console.WriteLine("Enter Number of Right Answers");
+                input = Console.ReadLine();
+            }
+            while (string.IsNullOrEmpty(input) || !uint.TryParse(input, out numOfRightAns) 
+            || numOfRightAns == 0);
+
+            bool check = true;
+            ChoicesAnsEnum eachChoice;
+
+            while (check)
+            {
+                do
+                {
+                    Console.WriteLine("Enter The Right Answers of This Q (Select Multi Choices)");
+                    Console.WriteLine("Enter Multi Choices , separated");
+                    Console.WriteLine("(A or B or C or D) OR (a or b or c or d)");
+                    input = Console.ReadLine();
+                }
+                while (string.IsNullOrEmpty(input) || input.Split(',').Length != numOfRightAns);
+
+                for(int i = 0; i < numOfRightAns; i++)
+                {
+                    bool b = Enum.TryParse(input.Split(',')[i], true, out eachChoice);
+
+                    if (b)
+                        multiAnsEnum |= eachChoice;
+                    else
+                        break;
+
+                    if (i + 1 == numOfRightAns && b)
+                        check = false;
+                }
+            }
+
+            //Console.WriteLine(multiAnsEnum);
+
+            return multiAnsEnum;
+        }
         #endregion
     }
 }
