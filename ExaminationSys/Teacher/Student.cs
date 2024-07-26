@@ -44,6 +44,7 @@ namespace TeachAndSt
                 {
                     Console.Clear();
                     e.Value.ShowExam();
+                    Console.ReadLine();
                     break;
                 }
                 counter++;
