@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exam
+namespace ExamTypes
 {
     public class Subject
     {
@@ -8,6 +8,7 @@ namespace Exam
         string profName;
         string deptName;
         uint fullMark;
+        List<Subject> subjects;
 
         public Subject(string subname, string profname, string deptname, uint fullmark)
         {
@@ -15,12 +16,16 @@ namespace Exam
             profName = profname;
             deptName = deptname;
             fullMark = fullmark;
+            //subjects = new List<Subject>();
+            //subjects.Add(this);
+            subjects = [this];
         }
 
         public string SubName { get => subName; }
         public string ProfName { get => profName; }
         public string DeptName { get => deptName; }
         public uint FullMark { get => fullMark; }
+        public List<Subject> Subjects { get => subjects; }
 
         public override string ToString()
         {

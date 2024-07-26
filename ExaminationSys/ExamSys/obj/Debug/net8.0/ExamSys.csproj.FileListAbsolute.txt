@@ -16,5 +16,8 @@ D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\Examinatio
 D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\obj\Debug\net8.0\ExamSys.pdb
 D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\obj\Debug\net8.0\ExamSys.genruntimeconfig.cache
 D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\obj\Debug\net8.0\ref\ExamSys.dll
-D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\bin\Debug\net8.0\Exam.dll
-D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\bin\Debug\net8.0\Exam.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\bin\Debug\net8.0\ExamTypes.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\bin\Debug\net8.0\ExamTypes.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\obj\Debug\net8.0\ExamSys.sourcelink.json
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\bin\Debug\net8.0\TeachAndSt.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\ExamSys\bin\Debug\net8.0\TeachAndSt.pdb

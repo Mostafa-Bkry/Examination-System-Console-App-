@@ -1,6 +1,6 @@
 ﻿using ExamComponents;
 
-namespace Exam
+namespace ExamTypes
 {
     public static class ExamCreater
     {

@@ -1,13 +1,13 @@
 ﻿using ExamComponents;
 
-namespace Exam
+namespace ExamTypes
 {
     public abstract class Exam
     {
         Subject subject;
         TimeSpan examTime;
         uint numberOfQ;
-        QuestionType questionType;
+        //QuestionType questionType;
         QuestionsList questions;
         AnswersList answers;
         //Dictionary<Question, Answer> qAns;
@@ -37,10 +37,10 @@ namespace Exam
         public void CreateExam()
         {
             subject = ExamCreater.EnterExamSubjectHeader();
-            Console.WriteLine("========================================================");
 
             examTime = ExamCreater.EnterExamTime();
             Console.WriteLine("========================================================");
+            Console.WriteLine();
 
             uint markForEach = subject.FullMark / numberOfQ;
             QuestionType qType;
@@ -52,6 +52,9 @@ namespace Exam
                 answers.Add = ExamCreater.EnterQAnswer(qType);
                 Console.WriteLine("-----------------------------");
             }
+            Console.WriteLine();
+            Console.WriteLine("#############################################################");
+            Console.WriteLine();
         }
         public abstract void ShowExam();
     }

@@ -1,7 +1,7 @@
 ﻿using ExamComponents;
 using System;
 
-namespace Exam
+namespace ExamTypes
 {
     public class PracticeExam : Exam
     {

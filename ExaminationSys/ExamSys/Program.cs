@@ -1,5 +1,6 @@
-﻿using Exam;
+﻿using ExamTypes;
 using ExamComponents;
+using TeachAndSt;
 
 namespace ExamSys
 {
@@ -17,15 +18,34 @@ namespace ExamSys
             }
             while (string.IsNullOrEmpty(input) || !uint.TryParse(input, out numOfQ) || numOfQ == 0);
 
-            //FinalExam final = new FinalExam(numOfQ);
-            //final.CreateExam();
-            //Console.Clear();
-            //final.ShowExam();
+            ExamTypeEnum examType;
+            do
+            {
+                Console.WriteLine("Enter Exam Type");
+                Console.WriteLine("1 --> Practice Exam\t2 --> Final Exam");
+                input = Console.ReadLine();
+            }
+            while (string.IsNullOrEmpty(input) || (input != "1" && input != "2"));
 
-            PracticeExam practice = new PracticeExam(numOfQ);
-            practice.CreateExam();
+            examType = (ExamTypeEnum)Enum.Parse(typeof(ExamTypeEnum), input);
+
+            //--------------------------
+            Teacher t1 = new Teacher();
+
+            t1.AddExam(examType, numOfQ);
+
+            //Console.Clear();
+
+            //t1.AddExam(examType, numOfQ);
+
+            t1.ShowMyExams();
+            //--------------------------
+            Console.ReadLine();
             Console.Clear();
-            practice.ShowExam();
+            //--------------------------
+            Student s1 = new Student(t1);
+
+            s1.TakeExam();
         }
     }
 }
