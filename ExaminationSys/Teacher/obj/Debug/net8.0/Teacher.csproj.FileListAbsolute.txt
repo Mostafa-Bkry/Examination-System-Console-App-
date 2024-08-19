@@ -1,0 +1,6 @@
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Teacher\obj\Debug\net8.0\Teacher.csproj.AssemblyReference.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Teacher\obj\Debug\net8.0\Teacher.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Teacher\obj\Debug\net8.0\Teacher.AssemblyInfoInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Teacher\obj\Debug\net8.0\Teacher.AssemblyInfo.cs
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Teacher\obj\Debug\net8.0\Teacher.csproj.CoreCompileInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Teacher\obj\Debug\net8.0\Teacher.sourcelink.json

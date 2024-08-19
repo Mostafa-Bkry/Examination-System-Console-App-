@@ -1,0 +1,16 @@
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\ExamTypes.deps.json
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\ExamTypes.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\ExamTypes.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\ExamComponents.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\ExamComponents.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.csproj.AssemblyReference.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.AssemblyInfoInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.AssemblyInfo.cs
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.csproj.CoreCompileInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.sourcelink.json
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.csproj.Up2Date
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\refint\ExamTypes.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ExamTypes.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ref\ExamTypes.dll

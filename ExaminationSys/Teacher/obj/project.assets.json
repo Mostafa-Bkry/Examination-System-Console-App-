@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ExamComponents/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ExamComponents.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamComponents.dll": {}
+        }
+      },
+      "ExamTypes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ExamComponents": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ExamTypes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamTypes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExamComponents/1.0.0": {
+      "type": "project",
+      "path": "../ExamComponents/ExamComponents.csproj",
+      "msbuildProject": "../ExamComponents/ExamComponents.csproj"
+    },
+    "ExamTypes/1.0.0": {
+      "type": "project",
+      "path": "../Exam/ExamTypes.csproj",
+      "msbuildProject": "../Exam/ExamTypes.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ExamTypes >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mbkry\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Teacher\\TeachAndSt.csproj",
+      "projectName": "TeachAndSt",
+      "projectPath": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Teacher\\TeachAndSt.csproj",
+      "packagesPath": "C:\\Users\\mbkry\\.nuget\\packages\\",
+      "outputPath": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Teacher\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mbkry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\ExamTypes.csproj": {
+              "projectPath": "D:\\Courses\\C# ITI 2021\\Hany Labib\\My Learning 2024\\Labs Assignments\\6\\ExaminationSys\\Exam\\ExamTypes.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

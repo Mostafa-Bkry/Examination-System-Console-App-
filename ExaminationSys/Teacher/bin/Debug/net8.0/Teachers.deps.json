@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Teachers/1.0.0": {
+        "dependencies": {
+          "ExamTypes": "1.0.0"
+        },
+        "runtime": {
+          "Teachers.dll": {}
+        }
+      },
+      "ExamComponents/1.0.0": {
+        "runtime": {
+          "ExamComponents.dll": {}
+        }
+      },
+      "ExamTypes/1.0.0": {
+        "dependencies": {
+          "ExamComponents": "1.0.0"
+        },
+        "runtime": {
+          "ExamTypes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Teachers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExamComponents/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExamTypes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

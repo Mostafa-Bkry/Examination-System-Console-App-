@@ -1,0 +1,16 @@
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\Exam.deps.json
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\Exam.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\Exam.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\ExamComponents.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\bin\Debug\net8.0\ExamComponents.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.csproj.AssemblyReference.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.AssemblyInfoInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.AssemblyInfo.cs
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.csproj.CoreCompileInputs.cache
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.csproj.Up2Date
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\refint\Exam.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.pdb
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\ref\Exam.dll
+D:\Courses\C# ITI 2021\Hany Labib\My Learning 2024\Labs Assignments\6\ExaminationSys\Exam\obj\Debug\net8.0\Exam.sourcelink.json
